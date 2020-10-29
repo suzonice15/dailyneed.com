@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/dashboard', 'admin\DashboardController@index')->name('dashboard');
+Route::get('/{anypath}', 'admin\DashboardController@index')->where('path','.*');
+Route::get('/{anypath}/{id}', 'admin\DashboardController@index')->where('path','.*');
