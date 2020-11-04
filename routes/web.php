@@ -22,3 +22,5 @@ Auth::routes();
 Route::get('/dashboard', 'admin\DashboardController@index')->name('dashboard');
 Route::get('/{anypath}', 'admin\DashboardController@index')->where('path','.*');
 Route::get('/{anypath}/{id}', 'admin\DashboardController@index')->where('path','.*');
+Route::get('/{anypath}/{id}/{name}', 'admin\DashboardController@index')->where('path','.*');
+Route::get('/{anypath}/{id}/{name}/{namee}', 'admin\DashboardController@index')->where('path','.*');

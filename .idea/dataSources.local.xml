@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - dailyneed.com@localhost" uuid="a7876616-8bd5-4dc3-a26a-abebcc3d13dc">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+    </data-source>
+    <data-source name="MySQL - dailyneed.com@localhost [2]" uuid="fe6eac6d-7c6d-4791-9386-c8bd0dbedb3c">
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>root</user-name>
+    </data-source>
+    <data-source name="MySQL - http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=dailyneed.com" uuid="61187148-ba36-447a-9db2-5ed0a515fde5">
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>root</user-name>
+    </data-source>
+  </component>
+</project>
